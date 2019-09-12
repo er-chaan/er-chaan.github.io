@@ -84,6 +84,14 @@ $conn->query($sql2);
           	}]
         }
     </script>
+    <!-- aws -->
+    <script type="text/javascript" language="javascript">
+      var aax_size='728x90';
+      var aax_pubname = 'chaan-21';
+      var aax_src='302';
+    </script>
+    <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
+    <!-- aws -->
   </head>
   <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -116,7 +124,7 @@ $conn->query($sql2);
           </li>
           <li class="nav-item">
               <!-- <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="er-chaan-29a76b145"><a class="LI-simple-link" href='https://in.linkedin.com/in/er-chaan-29a76b145?trk=profile-badge' target="_blank">er- Chaan</a></div> -->
-              <!-- <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="er-chaan-29a76b145"><a class="LI-simple-link" href='https://in.linkedin.com/in/er-chaan-29a76b145?trk=profile-badge'>er- Chaan</a></div> -->
+              <!-- <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="er-chaan-29a76b145"><a class="LI-simple-link" href='https://in.linkedin.com/in/er-chaan-29a76b145?trk=profile-badge' target="_blank">er- Chaan</a></div> -->
           </li>
         </ul>
       </div>
@@ -131,8 +139,22 @@ $conn->query($sql2);
             <a href="mailto:er.chandreshbhai@gmail.com">er.chandreshbhai@gmail.com</a>
           </div>
           <p class="mb-5">I have 3+ years of experience in software engineering and during that i strongly participated in all the phases of software development life cycle. So far i covered my major work area as an all rounder includes [ FullStack + OpenSource + TechLead + DevOps ]. I am not expertise in any specific verticle skill but i have decent control on my all horizontal skills.</p>
-          <div class="LI-profile-badge pull-right"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="er-chaan-29a76b145"><a class="LI-simple-link" href='https://in.linkedin.com/in/er-chaan-29a76b145?trk=profile-badge'>er- Chaan</a></div>
+          <!-- <div class="LI-profile-badge pull-right"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="er-chaan-29a76b145"><a class="LI-simple-link" href='https://in.linkedin.com/in/er-chaan-29a76b145?trk=profile-badge' target="_blank">er- Chaan</a></div> -->
+            <ul class="list-inline list-social-icons mb-0 pull-right">
+              <li class="list-inline-item">
+                <a href='https://in.linkedin.com/in/er-chaan-29a76b145?trk=profile-badge' target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
         </div>
+        <!--  -->
+        <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=chaan-21&marketplace=amazon&region=IN&placement=B008J2MMWU&asins=B008J2MMWU&linkId=b3f83ca92a887dd5127cbdf0d7bbba73&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+        <!--  -->
       </section>
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
@@ -322,7 +344,7 @@ $conn->query($sql2);
          <?php
          $sql3 = "SELECT * FROM er_analytics";
          $result3 = $conn->query($sql3);
-         echo "Visitors Count : ".$result3->num_rows;
+         echo $result3->num_rows;
          $conn->close();
          ?>
     </div>
